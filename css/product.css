@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    font-family: 'Montserrat';;
+}
+
+:root {
+    --accent-color: #f59929;
+    --text-color: rgb(31, 31, 31);
+    --text-light: white;
+    --gray: #ebe9e9;
+}
+
+header {
+    background-color: var(--accent-color);  
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-link{
+    font-size: 2.2em;
+    font-weight: 600;
+    color: var(--text-light); 
+}
+
+.logo-link:hover{
+    color: var(--text-light);
+}
+
+.nav-link{
+    color: var(--text-light);
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    background-color: #ff8c00;
+    color: var(--text-light);
+}
+
+.product-name:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 2px;
+}
+
+.product-description{
+    font-size: 0.8em;
+}
+
+.rent-info{
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.btn-primary{
+    background-color: var(--accent-color);
+    border: #f59929;
+}
+
+.btn-primary:hover{
+    background-color: #ff8c00;
+}
